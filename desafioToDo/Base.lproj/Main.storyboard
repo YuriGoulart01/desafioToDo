@@ -27,17 +27,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="deD-nh-ChO">
-                                                    <rect key="frame" x="0.0" y="0.0" width="390" height="100"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="deD-nh-ChO">
+                                                    <rect key="frame" x="5" y="13.666666666666799" width="100.33333333333333" height="71.666666666666671"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mc3-6L-z0P">
-                                                            <rect key="frame" x="0.0" y="0.0" width="390" height="39"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="100.33333333333333" height="28"/>
                                                             <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHB-yF-AiZ">
-                                                            <rect key="frame" x="0.0" y="60" width="390" height="40"/>
+                                                            <rect key="frame" x="0.0" y="49" width="100.33333333333333" height="22.666666666666671"/>
                                                             <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>

@@ -34,12 +34,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             text.placeholder = "Entre com a descrição"
         }
         let submitButton = UIAlertAction(title: "Adicionar", style: .default) { (_) in
-            guard let task = alert.textFields?[0].text, let description = alert.textFields?[1].text else {return}
+            guard let task = alert.textFields?[0].text, let description = alert.textFields?[1].text, !task.isEmpty, !description.isEmpty else {return}
             self.data.append(Task(title: task, description: description))
             self.tableView.reloadData()
         }
+        let cancelButton = UIAlertAction(title: "Cancelar", style: .default){ (_) in
+        }
         
         alert.addAction(submitButton)
+        alert.addAction(cancelButton)
         
         present(alert, animated: false)
     }
